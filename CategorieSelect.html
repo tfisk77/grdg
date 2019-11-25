@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+       <title>Categorie Select</title>
+    </head>
+    <body>
+        <label for="CatSelect">Selectionez une categrorie</label>
+        <select id="CatSelect" name="categories">
+            <option value="luxe">Luxe</option>
+            <option value="montres">Montres</option>
+            <option value="bijoux">Bijoux</option>
+            <option value="menuiserie">Menuiserie</option>
+            <option value="produits maisons">Produits de la maison</option>
+            <option value="musique">Musique</option>
+            <option value="sport">Sport</option>
+            <option value="cd">CD</option>
+            <option value="occasion">Occasion</option>
+            <option value="voiture">Voiture</option>
+            <option value="vetement">Vetement</option>
+            <option value="cours">Cours</option>
+            <option value="services">Services</option>
+        </select>
+        <button onclick="getProduct(getElementById('CatSelect').value)">Submit</button>
+
+        <script src="CategorieSearch.js"> </script>
+    </body>
+</html>
